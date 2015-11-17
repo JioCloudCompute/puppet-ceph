@@ -69,6 +69,7 @@ class ceph::conf (
     'global/osd pool default size':    value => $pool_default_size;
     'global/osd pool default pg num':  value => $pool_default_pg_num;
     'global/osd pool default pgp num': value => $pool_default_pgp_num;
+    'global/mon_pg_warn_max_per_osd':         value => 0;
     'mon/mon data':                    value => $mon_data;
     'osd/filestore flusher':           value => false, tag => 'osd_config';
     'osd/osd data':                    value => $osd_data, tag => 'osd_config';
